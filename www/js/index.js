@@ -32,7 +32,7 @@ var app = {
 };
 
 function recordAudio() {
-        var src = 'este' + (Math.random()+'').slice(1,6) + '.amr';
+        var src = '/sdcard/este' + (Math.random()+'').slice(1,6) + '.amr';
         var mediaRec = new Media(src, onSuccess, onError);
 
         // Record audio
